@@ -46,7 +46,7 @@ module.exports = {
             '/pages/竞赛性编程/': [
                 'acwing算法基础',
                 '二分查找和三分查找常见问题和写法比较',
-                '力扣中有关括号序列的题.md',
+                '力扣中有关括号序列的题',
                 '算法常用代码模版',
                 'acwing算法提高',
                 'lc题解',
@@ -82,7 +82,12 @@ module.exports = {
             ]
         }
 
-    }
+    },
+    markdown: {
+        extendMarkdown: md => {
+          md.use(require('markdown-it-katex')) // 启动 markdown-it-katex 插件
+        }
+      }
 }
 
 

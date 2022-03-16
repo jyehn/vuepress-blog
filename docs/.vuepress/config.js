@@ -49,7 +49,7 @@ module.exports = {
         //页脚版权栏
         footer: {
             createYear: 2022,
-            copyrightInfo: process.env.location === 'cn' ? '<a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2022001960号-1</a>|「Powered by <a href="https://webify.cloudbase.net/" target="_blank">CloudBase Webify</a>」' : 'Powered by Vercel'
+            copyrightInfo: process.env.pubLocation === 'cn' ? '<a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2022001960号-1</a>|「Powered by <a href="https://webify.cloudbase.net/" target="_blank">CloudBase Webify</a>」' : 'Powered by Vercel'
         }
     },
     markdown: {

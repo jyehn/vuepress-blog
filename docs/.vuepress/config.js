@@ -15,6 +15,8 @@ module.exports = {
     ],
     themeConfig: {
         logo: '/caigouicon.jpg',  //网页顶端导航栏左上角的图标
+        lastUpdated: 'Last Updated', // string | boolean
+        smoothScroll: true,
 
         //顶部导航栏
         nav: [
@@ -44,13 +46,14 @@ module.exports = {
         //侧边导航栏：会根据当前的文件路径是否匹配侧边栏数据，自动显示/隐藏
         sidebar: {
             '/pages/竞赛性编程/': [
-                'acwing算法基础',
-                '二分查找和三分查找常见问题和写法比较',
-                '力扣中有关括号序列的题',
                 '算法常用代码模版',
+                'acwing算法基础',
                 'acwing算法提高',
                 'lc题解',
-                'lc题目分类'
+                'lc题目分类',
+                '紫书刷题笔记',
+                '二分查找和三分查找常见问题和写法比较',
+                '力扣中有关括号序列的题',
             ],
             '/pages/前端/': [
                 '字节青训营笔记',

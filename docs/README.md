@@ -1,5 +1,6 @@
 ---
 home: true
+lang: zh-CN
 heroImage: /caigou.jpg
 heroText: jyehn的笔记备份
 tagline: 一点一滴都是进步

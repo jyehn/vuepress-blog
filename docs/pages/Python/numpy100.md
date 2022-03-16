@@ -1,4 +1,7 @@
-numpy 100题
+# numpy 100题
+
+关于numpy使用的一些练习题
+
 
 1. import the numpy package under the name np
 

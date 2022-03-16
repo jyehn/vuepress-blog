@@ -1,8 +1,8 @@
+# HTML梳理
 
 
 
-
-# 表单
+## 表单
 
 ## 关于`<form>`
 
@@ -12,42 +12,42 @@
 下列属性控制提交表单时的行为。
 
 1. `action`
-   处理表单提交的 URL。这个值可被 <button>、<input type="submit"> 或 <input type="image"> 元素上的 formaction 属性覆盖。
+   处理表单提交的 URL。这个值可被 `<button>`、`<input type="submit">` 或 `<input type="image">` 元素上的 formaction 属性覆盖。
    `enctype`
    当 method 属性值为 post 时，enctype 就是将表单的内容提交给服务器的 MIME 类型 。可能的取值有：
    application/x-www-form-urlencoded：未指定属性时的默认值。
-   multipart/form-data：当表单包含 type=file 的 <input> 元素时使用此值。
+   multipart/form-data：当表单包含 type=file 的 `<input>` 元素时使用此值。
    text/plain：出现于 HTML5，用于调试。
-   这个值可被 <button>、<input type="submit"> 或 <input type="image"> 元素上的 formenctype 属性覆盖。
+   这个值可被` <button>`、`<input type="submit">` 或 `<input type="image">` 元素上的 formenctype 属性覆盖。
 
 2. `method`
    浏览器使用这种 HTTP 方式来提交 表单。可能的值有：
    post：指的是 HTTP POST 方法；表单数据会包含在表单体内然后发送给服务器。
    get：指的是 HTTP GET 方法；表单数据会附加在 action 属性的 URL 中，并以 '?' 作为分隔符，没有副作用 时使用这个方法。
-   dialog：如果表单在 <dialog> 元素中，提交时关闭对话框。
-   此值可以被 <button>、<input type="submit"> 或 <input type="image"> 元素中的 formmethod 属性覆盖。
+   dialog：如果表单在 `<dialog>` 元素中，提交时关闭对话框。
+   此值可以被 `<button>`、`<input type="submit">` 或 `<input type="image">` 元素中的 formmethod 属性覆盖。
 
 3. `novalidate`
-   此布尔值属性表示提交表单时不需要验证表单。 如果没有声明该属性（因此表单需要通过验证）。该属性可以被表单中的 <button>、<input type="submit"> 或 <input type="image"> 元素中的 formnovalidate 属性覆盖。
+   此布尔值属性表示提交表单时不需要验证表单。 如果没有声明该属性（因此表单需要通过验证）。该属性可以被表单中的 `<button>`、`<input type="submit">` 或 `<input type="image">` 元素中的 formnovalidate 属性覆盖。
 4. `target`
    表示在提交表单之后，在哪里显示响应信息。在 HTML 4 中，这是一个 frame 的名字/关键字对。在 HTML5 里，这是一个浏览上下文 的名字/关键字（如标签页、窗口或 iframe）。下述关键字有特别含义：
    _self：默认值。在相同浏览上下文中加载。
    _blank：在新的未命名的浏览上下文中加载。
    _parent：在当前上下文的父级浏览上下文中加载，如果没有父级，则与 _self 表现一致。
    _top：在最顶级的浏览上下文中（即当前上下文的一个没有父级的祖先浏览上下文），如果没有父级，则与 _self 表现一致。
-   此值可以被 <button>、 <input type="submit"> 或 <input type="image"> 元素中的 formtarget 属性覆盖。
+   此值可以被 `<button>`、 `<input type="submit">` 或 `<input type="image">` 元素中的 formtarget 属性覆盖。
 
 ## 关于`<form>`中使用的标签
 
 | 元素                                                         | 描述                                                         |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [`button`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/button) | **HTML `<button>` 元素**表示一个可点击的按钮，可以用在[表单](https://developer.mozilla.org/en-US/docs/Learn/Forms)或文档其它需要使用简单标准按钮的地方。 |
-| [`datalist`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/datalist) | ***HTML\* `<datalist>`\*元素\***包含了一组`option`元素，这些元素表示其它表单控件可选值。 |
+| [`datalist`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/datalist) | **HTML`<datalist>`元素**包含了一组`option`元素，这些元素表示其它表单控件可选值。 |
 | [`fieldset`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/fieldset) | 这个元素包含[所有全局属性](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)。 |
 | [`form`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/form) | **HTML `<form>` 元素**表示文档中的一个区域，此区域包含交互控件，用于向 Web 服务器提交信息。 |
 | [`input`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input) | **HTML `<input>` 元素**用于为基于 Web 的表单创建交互式控件，以便接受来自用户的数据; 可以使用各种类型的输入数据和控件小部件，具体取决于设备和user agent。 |
 | [`label`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/label) | **HTML `<label>` 元素（标签）**表示用户界面中某个元素的说明。 |
-| [`legend`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/legend) | **HTML <legend>** 元素用于表示其父元素 `fieldset` 的内容标题。 |
+| [`legend`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/legend) | **HTML `<legend>`** 元素用于表示其父元素 `fieldset` 的内容标题。 |
 | [`meter`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meter) | **HTML `<meter>元素用来显示已知范围的标量值或者分数值。`**   |
 | [`optgroup`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/optgroup) | **HTML 元素 `<optgroup>`** 为`select` 元素中的选项创建分组。 |
 | [`option`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/option) | **HTML 元素 `<option>`** 用于定义在 `select`, `optgroup` 或 `datalist` 元素中包含的项。`<option>` 可以在弹出窗口和 HTML 文档中的其他项目列表中表示菜单项。 |

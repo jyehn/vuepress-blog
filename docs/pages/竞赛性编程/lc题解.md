@@ -121,7 +121,7 @@ public:
 
 考虑$k$应该在什么范围内，首先比较容易想到的是一个宽松的上界$k<=2n^2$（老鼠有n个位置，猫有n个位置，两者可以交换位置，即$\binom{1}{2}\times n\times n $）。但是有一个更严格的上界$k<=2n$，没有想到严格证明
 
-```c++
+```cpp
 class Solution {
 public:
     int catMouseGame(vector<vector<int>>& graph) {

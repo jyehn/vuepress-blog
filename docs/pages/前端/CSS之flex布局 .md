@@ -12,7 +12,7 @@ flex模型说明
 
 示意图
 
-![flex_terms.png](C:\Users\xiaojian\OneDrive\Notes\前端\assets\CSS之flex布局\p1.png)
+![flex_terms.png](http://img.jyehn.xyz/flex.png)
 
 主轴是沿着flex元素放置的方向延伸的轴
 

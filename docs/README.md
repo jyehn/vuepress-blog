@@ -1,11 +1,12 @@
 ---
 home: true
 lang: zh-CN
-heroImage: /caigou.jpg
+heroImage: /caigou.png
 heroText: jyehn的笔记备份
 tagline: 一点一滴都是进步
+bannerBg: none
 actionText: 马上进入 →
-actionLink: /pages/folder1/test1.md
+actionLink: /categories/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

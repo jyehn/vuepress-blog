@@ -27,8 +27,8 @@ module.exports = {
             { text: 'Java相关', link: '/pages/b6a3b6/' },
             { text: 'Python相关', link: '/pages/e9c654/' },
             { text: '算法', link: '/pages/6f7932/' },
-            { text: '实用网址', link: '/pages/738df6/' },
-            { text: '编程tips', link: '/pages/5b79ae/' },
+            { text: '实用网址', link: '/pages/5b79ae/' },
+            { text: '编程tips', link: '/pages/738df6/' },
             { text: '更新日记', link: '/pages/cb7fdc/' }
         ],
         repo: 'jyehn/vuepress-blog',

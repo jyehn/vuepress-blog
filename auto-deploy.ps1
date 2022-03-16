@@ -19,4 +19,4 @@
 # cd -
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:jyehn/blog.git main
+git push -f git@github.com:jyehn/vuepress-blog.git main

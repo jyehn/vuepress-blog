@@ -22,15 +22,17 @@ module.exports = {
         //顶部导航栏
         nav: [
             { text: '首页', link: '/' },
-            { text: '竞赛性编程', link: '/categories/?category=CompetitiveProgramming' },
-            { text: '前端', link: '/categories/?category=FrontEnd', },
-            { text: 'Java相关', link: '/categories/?category=Java' },
-            { text: 'Python相关', link: '/categories/?category=Python' },
-            { text: '算法', link: '/categories/?category=Algorithms' },
+            { text: '竞赛性编程', link: '/pages/31c782/' },
+            { text: '前端', link: '/pages/43aafd/', },
+            { text: 'Java相关', link: '/pages/b6a3b6/' },
+            { text: 'Python相关', link: '/pages/e9c654/' },
+            { text: '算法', link: '/pages/6f7932/' },
             { text: '实用网址', link: '/pages/738df6/' },
             { text: '编程tips', link: '/pages/5b79ae/' },
             { text: '更新日记', link: '/pages/cb7fdc/' }
         ],
+        repo: 'jyehn/vuepress-blog',
+        docsBranch: 'main',
         lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
         docsDir: 'docs', // 编辑的文件夹
         editLinks: true, // 启用编辑

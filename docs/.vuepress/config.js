@@ -18,7 +18,7 @@ module.exports = {
     theme: 'vdoing',
     themeConfig: {
         logo: '/caigouicon.png',  //网页顶端导航栏左上角的图标
-
+        smoothScroll: true, //平滑滚动
         //顶部导航栏
         nav: [
             { text: '首页', link: '/' },
@@ -55,7 +55,9 @@ module.exports = {
     markdown: {
         extendMarkdown: md => {
             md.use(require('markdown-it-katex')) // 启动 markdown-it-katex 插件
-        }
+            md.use(require('markdown-it-task-lists'))
+        },
+        extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6']
     },
     plugins: [
         [
@@ -71,6 +73,7 @@ module.exports = {
                 }
             }
         ]
+
     ]
 }
 

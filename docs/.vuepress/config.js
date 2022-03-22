@@ -23,7 +23,7 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             { text: '竞赛性编程', link: '/pages/31c782/' },
-            { text: '前端', link: '/pages/43aafd/', },
+            { text: '前端', link: '/pages/502454/', },
             { text: 'Java相关', link: '/pages/b6a3b6/' },
             { text: 'Python相关', link: '/pages/e9c654/' },
             { text: '算法', link: '/pages/6f7932/' },
@@ -50,7 +50,13 @@ module.exports = {
         footer: {
             createYear: 2022,
             copyrightInfo: process.env.pubLocation === 'cn' ? '<a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2022001960号-1</a>|「Powered by <a href="https://webify.cloudbase.net/" target="_blank">CloudBase Webify</a>」' : 'Powered by Vercel'
-        }
+        },
+        algolia: {
+            apiKey: 'ede07567c34b1be0f8bdf6dcb4ce7848',
+            indexName: 'jyehn-blog-index',
+            // If Algolia did not provided you any `appId`, use `BH4D9OD16A` or remove this option
+            appId: '4IFCOL8H4X'
+          }
     },
     markdown: {
         extendMarkdown: md => {

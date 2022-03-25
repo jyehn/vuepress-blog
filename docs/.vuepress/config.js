@@ -53,7 +53,7 @@ module.exports = {
         },
         algolia: {
             apiKey: 'a2c1f5a65cd7cb461c832c4655ded76d',
-            indexName: 'jyehn'
+            indexName: 'jyehn',
             // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
             appId: 'QZS1KRZYX3',
     }

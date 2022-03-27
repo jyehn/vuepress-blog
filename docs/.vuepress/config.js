@@ -10,8 +10,8 @@ module.exports = {
             //浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
         ],
 
-        ['link', { rel: "stylesheet", href: 'https://cdn.bootcdn.net/ajax/libs/KaTeX/0.5.1/katex.min.css' }],
-        ['link', { rel: "stylesheet", href: 'https://cdn.bootcdn.net/ajax/libs/github-markdown-css/2.2.1/github-markdown.min.css' }]
+        ['link', { rel: "stylesheet", href: 'https://img.jyehn.xyz/libs/KaTex/katex.min.css' }],
+        ['link', { rel: "stylesheet", href: 'https://img.jyehn.xyz/libs/github-markdown-css/github-markdown.css' }]
 
 
     ],

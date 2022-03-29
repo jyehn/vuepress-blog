@@ -57,17 +57,9 @@ module.exports = {
             // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
             appId: 'QZS1KRZYX3',
             algoliaOptions: {
-				hitsPerPage: 10,
-				facetFilters: ""
-			},
-            locales: {
-                '/': {
-                  placeholder: 'Search Documentation',
-                },
-                '/zh/': {
-                  placeholder: '搜索文档',
-                },
-              },
+                hitsPerPage:20,
+                facetFilters: ""
+            },
         }
     },
     markdown: {
@@ -90,7 +82,7 @@ module.exports = {
                     path: '<%- frontmatter.to.path %>'
                 }
             }
-        ], 
+        ],
         [
             'site-map',
             {

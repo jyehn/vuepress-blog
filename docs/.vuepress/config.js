@@ -23,7 +23,7 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             { text: '竞赛性编程', link: '/pages/31c782/' },
-            { text: '前端', link: '/pages/502454/', },
+            { text: '前端', link: '/pages/228c04/', },
             { text: 'Java相关', link: '/pages/b6a3b6/' },
             { text: 'Python相关', link: '/pages/e9c654/' },
             { text: '算法', link: '/pages/6f7932/' },
